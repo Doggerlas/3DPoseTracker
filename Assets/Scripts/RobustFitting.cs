@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/*实现鲁棒拟合算法来处理传入的数据列表，以此生成鲁棒的滤波值
+ 该程序目的是执行鲁棒拟合算法来处理传入的数据列表，以此生成鲁棒的滤波值。
+ 除此之外，还定义了一个Add函数，用于处理三维向量值，并返回其X、Y、Z轴的过滤结果。
+ 其中，还有一个私有函数Add和一个公有函数Add分别用于添加标量值和向量值到不同的列表中，并且Add函数还有一个额外的重载版本用于返回一个bool值。
+ */
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;

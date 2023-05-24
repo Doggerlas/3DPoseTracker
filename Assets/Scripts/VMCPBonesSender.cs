@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*将游戏物体的位置、旋转以及动画信息发送到其他应用程序或设备
+ 这个文件用于将游戏物体的位置、旋转以及动画信息发送到其他应用程序或设备。
+ 该脚本使用了uOSCClient库。它包含一个枚举类型VirtualDevice用来确定传输的设备类型，还包含一个动画控制器animator、一个设置旋转角度的函数SetRot以及一个发送骨骼位置信息的函数SendBoneTransformForTracker。
+ 最主要的函数是Update，它每帧负责发送所有需要传输的数据。
+ */
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

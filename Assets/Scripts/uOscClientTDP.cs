@@ -1,4 +1,8 @@
-﻿using UnityEngine;
+﻿/*实现OSC客户端，用于发送OSC消息和捆绑到指定的地址和端口
+ 该文件是一个名为uOscClientTDP的C#脚本文件，主要功能是提供一个OSC客户端，用于发送OSC消息和捆绑到指定的地址和端口。
+ 该脚本使用一个专用队列来排队要发送的消息，使用UDP协议来发送消息，其中包括Message和Bundle。脚本还包括启动和停止线程的方法
+ */
+using UnityEngine;
 using System.IO;
 using System.Collections.Generic;
 using uOSC;

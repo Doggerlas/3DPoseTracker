@@ -1,4 +1,11 @@
-﻿using System;
+﻿/*实现多项式拟合算法
+ 该程序用于实现数据拟合算法。
+ 其中包含一个名为RobustPolynomialFitting的类，继承自FittingMethod类。该类包含一个构造函数和多个属性方法和函数方法，主要实现的功能有：
+对数据进行加权多项式拟合
+根据给定的拟合次数对数据进行迭代拟合，去除噪点
+计算拟合值
+ */
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

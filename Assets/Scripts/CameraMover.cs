@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*实现摄像机在场景中的移动和操作
+ * 用于控制场景中的摄像机移动和操作.
+ * 该代码文件定义了一个摄像机移动器类，并包含各种方法和属性，如WASD控制前进、后退等。
+ * 此外，该代码文件还包含了一些用于控制UI消息、自动旋转摄像机、使用鼠标控制摄像机位置等的辅助方法。
+ */
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

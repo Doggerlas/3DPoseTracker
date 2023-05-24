@@ -1,4 +1,7 @@
-﻿using System.Collections;
+﻿/*
+ 实现数字滤波器
+ */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

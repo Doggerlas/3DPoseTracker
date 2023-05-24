@@ -1,4 +1,11 @@
-﻿using System;
+﻿/*实现加权多项式拟合的方法
+ 这是一个称为WeightedPolynomialFitting的类，实现了FittingMethod接口。
+ 它包括一个构造函数，用于接收拟合数据、权重、多项式的度数和一个是否启用截距的标志；
+ 一个重载FittingValue方法用于计算拟合值；
+ 一个ExecureFitting方法，它计算一个向量，其中包含拟合系数；
+ 最后，有一个WeightedCost方法，它计算加权误差平方和。这个类使用矩阵和向量作为操作数，它可以进行矩阵乘法、加法、逆和转置。
+ */
+using System;
 using System.Collections;
 using System.Collections.Generic;
 

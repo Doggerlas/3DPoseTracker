@@ -1,4 +1,7 @@
-﻿using SFB;
+﻿/*实现配置信息的显示和修改
+ * 用于初始化和展示游戏对象的属性值
+ */
+using SFB;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

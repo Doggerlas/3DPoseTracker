@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿/*实现Butterworth滤波器和RobustPolynomialFitting拟合方法
+ * 对数据进行滤波
+ * 其中包括了Butterworth滤波器和RobustPolynomialFitting拟合方法。
+ * 这个类可以接收X、Y和Z轴数据，并根据给定的采样率和截止频率来滤波这些数据。
+ * 另外，它还包含一些用于监测错误的机制。
+ */
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;

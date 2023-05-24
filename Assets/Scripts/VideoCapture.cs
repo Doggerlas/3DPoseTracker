@@ -1,4 +1,8 @@
-﻿using System.Collections;
+﻿/*实现视频的播放、暂停、停止以及相机捕捉等功能
+ 这是一个Unity引擎中的视频捕捉类，其中包括了视频的播放、暂停、停止以及相机捕捉等功能。
+ 它可以使用Webcam或者本地视频文件作为视频源，可以按照指定的比例进行画面的裁剪，同时提供了视频准备好及播放完毕等回调函数。
+ */
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Video;

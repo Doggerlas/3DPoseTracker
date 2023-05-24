@@ -1,4 +1,9 @@
-﻿using SFB;
+﻿/*  实现用户设置模型的功能，如选择3D模型、显示模型信息等
+ *  Unity UI的选项控制脚本
+ *  在用户点击不同按钮时触发对应的事件，例如onOK、onApply、onAdd、onCancel等。
+ *  除此之外，该类还实现了文件选取功能，用于选择VRM和FBX文件来加载3D模型
+ */
+using SFB;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;

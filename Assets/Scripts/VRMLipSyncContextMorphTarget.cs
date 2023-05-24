@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*实现 VRM 角色面部表情同步的脚本
+ 这个程序文件是一个用于实现VRM角色面部表情同步的脚本，
+ 它使用OVRLipSyncContextBase和VRMBlendShapeProxy来获取当前面部表情状态，将其映射到相应的表情 blendshape 上，并提供了平滑度和灵敏度参数控制。
+ 此外还提供了自动眨眼功能和随机眨眼功能。
+ */
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

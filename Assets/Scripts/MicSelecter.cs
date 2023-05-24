@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/*用于选择麦克风并获取麦克风音频
+ 这是一个用于选择麦克风并获取麦克风音频的Unity脚本。
+ 它包括用于启动和停止麦克风录制的函数，并且在应用程序失去焦点或暂停时自动停止麦克风录制。
+ 该脚本还包括设置麦克风输入音量和频率的功能。
+ */
+using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Threading;

@@ -1,4 +1,5 @@
-﻿using System;
+﻿/*实现数据滤波和拟合算法*/
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
